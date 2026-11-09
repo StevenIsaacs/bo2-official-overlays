@@ -18,3 +18,7 @@ __pycache__/
 # Ignore all .env, .pfx files, including in subdirectories
 **/*.env
 **/*.pfx
+
+# For building on Linux
+ref/
+commit.txt
