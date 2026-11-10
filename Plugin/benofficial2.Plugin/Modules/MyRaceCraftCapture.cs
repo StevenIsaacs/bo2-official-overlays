@@ -34,7 +34,7 @@ namespace benofficial2.Plugin
     public class MyRaceCraftCaptureSettings : ModuleSettings
     {
         public bool Enabled { get; set; } = true;
-        public string ListenerUrl { get; set; } = "ws://127.0.0.1:8888/ws/v1/capture";
+        public string ListenerUrl { get; set; } = "ws://127.0.0.1:9898/ws/v1/capture";
         public string Token { get; set; } = string.Empty;
         public int CarsIntervalMs { get; set; } = 100;
     }
